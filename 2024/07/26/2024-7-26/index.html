@@ -20,28 +20,32 @@
     var CONFIG = {"hostname":"wz114514.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="BugjumpAB&#39;s blog">
-<meta property="og:url" content="https://wz114514.github.io/index.html">
+  <meta name="description" content="哈夫曼树：树中结点都被赋值，称为结点的权。 路径长度与权的乘积叫做该结点的带权路径长度。 一个树的带权路径长度是指该树所有结点的带权路径长度之和。 带权路径长度最小的二叉树被称为哈夫曼树（或最优二叉树）。 图图是由顶点集（一个或多个）和边集组成。 图：G 顶点：V 边：E G&#x3D;{(u,v)|u∈V,v∈V} 从顶点v到w若有路径存在，则v,w是连通的。若图中每个结点都连通，那么该图为连通">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2024&#x2F;7&#x2F;26">
+<meta property="og:url" content="https://wz114514.github.io/2024/07/26/2024-7-26/index.html">
 <meta property="og:site_name" content="BugjumpAB&#39;s blog">
+<meta property="og:description" content="哈夫曼树：树中结点都被赋值，称为结点的权。 路径长度与权的乘积叫做该结点的带权路径长度。 一个树的带权路径长度是指该树所有结点的带权路径长度之和。 带权路径长度最小的二叉树被称为哈夫曼树（或最优二叉树）。 图图是由顶点集（一个或多个）和边集组成。 图：G 顶点：V 边：E G&#x3D;{(u,v)|u∈V,v∈V} 从顶点v到w若有路径存在，则v,w是连通的。若图中每个结点都连通，那么该图为连通">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-07-26T11:09:04.000Z">
+<meta property="article:modified_time" content="2024-07-26T11:10:46.097Z">
 <meta property="article:author" content="BugjumpAB(wz114514)">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://wz114514.github.io/">
+<link rel="canonical" href="https://wz114514.github.io/2024/07/26/2024-7-26/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>BugjumpAB's blog</title>
+  <title>2024/7/26 | BugjumpAB's blog</title>
   
 
 
@@ -144,9 +148,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -162,10 +167,9 @@
       <meta itemprop="name" content="BugjumpAB's blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/07/26/2024-7-26/" class="post-title-link" itemprop="url">2024/7/26</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          2024/7/26
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -189,7 +193,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="哈夫曼树："><a href="#哈夫曼树：" class="headerlink" title="哈夫曼树："></a>哈夫曼树：</h1><p>树中结点都被赋值，称为结点的权。</p>
+        <h1 id="哈夫曼树："><a href="#哈夫曼树：" class="headerlink" title="哈夫曼树："></a>哈夫曼树：</h1><p>树中结点都被赋值，称为结点的权。</p>
 <p>路径长度与权的乘积叫做该结点的带权路径长度。</p>
 <p>一个树的带权路径长度是指该树所有结点的带权路径长度之和。</p>
 <p>带权路径长度最小的二叉树被称为哈夫曼树（或最优二叉树）。</p>
@@ -205,217 +209,30 @@
 <h4 id="连通分量、连通图的定义："><a href="#连通分量、连通图的定义：" class="headerlink" title="连通分量、连通图的定义："></a>连通分量、连通图的定义：</h4><p>无向图的极大连通子图叫做连通分量。</p>
 <h2 id="简单图："><a href="#简单图：" class="headerlink" title="简单图："></a>简单图：</h2><h3 id="定义：-2"><a href="#定义：-2" class="headerlink" title="定义："></a>定义：</h3><p>在图中，不存在重复的边，不存在顶点到自身的边，这样的图为简单图。</p>
 <h1 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">typedef</span> <span class="type">int</span> elemtype;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">a</span><span class="params">(elemtype a[],<span class="type">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> i,j;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">2</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(a[i]&lt;a[i<span class="number">-1</span>])</span><br><span class="line">        &#123;</span><br><span class="line">            a[<span class="number">0</span>]=a[i];</span><br><span class="line">            <span class="keyword">for</span>(j=i<span class="number">-1</span>;a[<span class="number">0</span>]&lt;a[j];j--)</span><br><span class="line">            &#123;</span><br><span class="line">                a[j+<span class="number">1</span>]=a[j];</span><br><span class="line">            &#125;</span><br><span class="line">            a[j+<span class="number">1</span>]=a[<span class="number">0</span>];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    elemtype nums[]=&#123;<span class="number">49</span>,<span class="number">38</span>,<span class="number">65</span>,<span class="number">97</span>,<span class="number">76</span>,<span class="number">13</span>,<span class="number">27</span>&#125;;</span><br><span class="line">    elemtype l=<span class="built_in">sizeof</span>(nums)/<span class="built_in">sizeof</span>(nums[<span class="number">0</span>]);</span><br><span class="line">    <span class="built_in">a</span>(nums,l);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">8</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        std::cout&lt;&lt;nums[i]&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://wz114514.github.io/2024/07/25/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BugjumpAB(wz114514)">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="BugjumpAB's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/07/25/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/" class="post-title-link" itemprop="url">二叉树的遍历</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-07-25 20:10:37 / 修改时间：20:12:09" itemprop="dateCreated datePublished" datetime="2024-07-25T20:10:37+08:00">2024-07-25</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="二叉树的遍历"><a href="#二叉树的遍历" class="headerlink" title="二叉树的遍历"></a>二叉树的遍历</h1><p>二叉树的遍历是指：按照某条搜索路径访问树的每一个节点，并且每个节点都被访问一次。</p>
-<h2 id="遍历顺序"><a href="#遍历顺序" class="headerlink" title="遍历顺序"></a>遍历顺序</h2><p>前序遍历： 根-&gt;左-&gt;右</p>
-<p>中序遍历： 左-&gt;根-&gt;右</p>
-<p>后序遍历： 左-&gt;右-&gt;根</p>
-<p>前序遍历与中序遍历，后序遍历与中序遍历，层次遍历与中序遍历。都可以确定一棵二叉树。</p>
-<p>在二叉树中有m，n两个节点，若m为n的祖先，可以用后序遍历找到m到n的路径。</p>
-<h2 id="用递归方法来遍历二叉树"><a href="#用递归方法来遍历二叉树" class="headerlink" title="用递归方法来遍历二叉树"></a>用递归方法来遍历二叉树</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//定义节点</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> <span class="title class_">BiNode</span>&#123;</span><br><span class="line"> </span><br><span class="line">    ElemType c;      <span class="comment">//数据域</span></span><br><span class="line"> </span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">BiNode</span> *lchild, *rchild;         <span class="comment">//左右孩子指针</span></span><br><span class="line"> </span><br><span class="line">&#125;BiNode, *BiTree;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">preoder</span><span class="params">(BiTree p)</span><span class="comment">//前序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(p!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout&lt;&lt;p-&gt;c;</span><br><span class="line">        <span class="built_in">preoder</span>(p-&gt;lchild);</span><br><span class="line">        <span class="built_in">preoder</span>(p-&gt;rchild);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">inorder</span><span class="params">(BiTree p)</span><span class="comment">//中序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(p!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">inorder</span>(p-&gt;lchild);</span><br><span class="line">        cout&lt;&lt;p-&gt;c;</span><br><span class="line">        <span class="built_in">inorder</span>(p-&gt;rchild);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">postorder</span><span class="params">(BiTree p)</span> <span class="comment">//后序遍历</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   <span class="keyword">if</span>(p!=<span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">postorder</span>(p-&gt;lchild);</span><br><span class="line">        <span class="built_in">postorder</span>(p-&gt;rchild);</span><br><span class="line">        cout&lt;&lt;p-&gt;c;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        
 
 
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/07/25/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/" rel="prev" title="二叉树的遍历">
+      <i class="fa fa-chevron-left"></i> 二叉树的遍历
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://wz114514.github.io/2024/06/08/test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BugjumpAB(wz114514)">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="BugjumpAB's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/06/08/test/" class="post-title-link" itemprop="url">test</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-06-08 00:20:45 / 修改时间：00:41:38" itemprop="dateCreated datePublished" datetime="2024-06-08T00:20:45+08:00">2024-06-08</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world!"></a>hello world!<br></h2><h2 id="你好世界"><a href="#你好世界" class="headerlink" title="你好世界"></a>你好世界</h2><p><img src="/img%5Ctest.jpg" alt="test" title="test"></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://wz114514.github.io/2024/06/08/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BugjumpAB(wz114514)">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="BugjumpAB's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/06/08/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2024-06-08 00:15:53" itemprop="dateCreated datePublished" datetime="2024-06-08T00:15:53+08:00">2024-06-08</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -468,6 +285,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%93%88%E5%A4%AB%E6%9B%BC%E6%A0%91%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">哈夫曼树：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%BE"><span class="nav-number">2.</span> <span class="nav-text">图</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%89%E5%90%91%E5%9B%BE%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">有向图：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="nav-number">2.1.1.</span> <span class="nav-text">定义：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BC%BA%E8%BF%9E%E9%80%9A%E5%88%86%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="nav-number">2.1.1.1.</span> <span class="nav-text">强连通分量的定义：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A0%E5%90%91%E5%9B%BE%EF%BC%9A"><span class="nav-number">2.2.</span> <span class="nav-text">无向图：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89%EF%BC%9A-1"><span class="nav-number">2.2.1.</span> <span class="nav-text">定义：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BF%9E%E9%80%9A%E5%88%86%E9%87%8F%E3%80%81%E8%BF%9E%E9%80%9A%E5%9B%BE%E7%9A%84%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="nav-number">2.2.1.1.</span> <span class="nav-text">连通分量、连通图的定义：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E5%8D%95%E5%9B%BE%EF%BC%9A"><span class="nav-number">2.3.</span> <span class="nav-text">简单图：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89%EF%BC%9A-2"><span class="nav-number">2.3.1.</span> <span class="nav-text">定义：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%B4%E6%8E%A5%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="nav-number">3.</span> <span class="nav-text">直接插入排序</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
